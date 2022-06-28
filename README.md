@@ -3,16 +3,7 @@
 1) 1:33 - що саме тут доробити? (outline: transparent;)
 Чи можете показати?
 
-2) Добавив посилання
-https://prnt.sc/-Kz1ftbp1SaT
-питання 
-чи потрібен - "display: block" в
-
-.gellery-link{
-    display: block;
-}
-
-3) Чи я правильно добавив "opacity"
+2) Чи я правильно добавив "opacity"
 .portfolio-text-hover {
     <!-- position: absolute;
     top: 0;
@@ -30,7 +21,6 @@ https://prnt.sc/-Kz1ftbp1SaT
     opacity var(--transition-duration) var(--timig-function);
 }
 
-4) Калькуляцію поправив
-
 # goit-markup-hw-06
- 
+
+
