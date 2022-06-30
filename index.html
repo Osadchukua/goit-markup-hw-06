@@ -58,7 +58,7 @@
     <section class="hero">
       <div class="container">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-btn" data-modal-open>Заказать услугу</button>
+        <button type="button" class="hero-btn button" data-modal-open>Заказать услугу</button>
       </div>
     </section>
     <!-- features -->
@@ -408,7 +408,7 @@
         <p class="footer-title">Подпишитесь на рассылку</p>
         <form class="footer-form">
           <input type="email" name="footer-mail" id="footer-mail" class="footer-input" placeholder="E-mail" required>
-          <button type="submit" class="footer-btn btn">Надіслати
+          <button type="submit" class="footer-btn button">Надіслати
             <svg class="footer-icon" width="24" height="24">
               <use href="./img/icons.svg#icon-send"></use>
             </svg>
@@ -421,7 +421,7 @@
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <!-- button close -->
-      <button type="button" class="modal-close-btn" data-modal-close>
+      <button type="button" class="modal-close-btn button" data-modal-close>
         <svg class="footer-soc-icon" width="20" height="20">
           <use href="./img/icons.svg#icon-close-black"></use>
         </svg>
@@ -460,20 +460,21 @@
           </li>
         </ul>
         <div class="modal-textarea">
-          <label class="modal-label" for="user-textarea">Коментарій</label>
-          <textarea name="user-textarea" id="user-textarea" class="user-text-area"
+          <label class="modal-label" for="user-text-area">Коментарій</label>
+          <textarea name="user-text-area" id="user-text-area" class="user-text-area"
             placeholder="Введіть текст"></textarea>
         </div>
-        <div class="contract">
+        <div class="modal-contract button">
           <input type="checkbox" name="private" id="private" class="modal-chec visually-hidden">
-          <label for="private" class="modal-text"><span>
+          <label for="private" class="modal-text button">
+            <span>
               <svg class="chec-icon" width="11" height="8">
                 <use href="./img/icons.svg#icon-chec"></use>
               </svg>
             </span>Погоджуюся з розсилкою та приймаю<a href="">&nbsp; Умови договору</a>
           </label>
         </div>
-        <button type="submit" class="modal-btn btn">Надіслати</button>
+        <button type="submit" class="modal-btn button">Надіслати</button>
       </form>
     </div>
   </div>
